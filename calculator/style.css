@@ -1,0 +1,27 @@
+body{
+  box-sizing:content-box !important;
+}
+#buttons .row{
+  margin-top:5%;
+}
+.not-blue{
+  background:transparent !important;
+  border:none !important;
+}
+#calculator{
+  background-color:grey;
+  padding:2% 0;
+  border-radius:1.5em ;
+  border:inset #555 3px;
+  min-height:250px;
+}
+#LED_screen{
+  font-family:'LED';
+  color:blue;
+  background-color:lightblue;
+  text-align:right;
+}
+#buttons .row div div{
+  background-color:blue;
+  border:black 1px solid;
+}
